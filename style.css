@@ -17,7 +17,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-    background-color: #d3d3d3;
+    background-color: #D3AD7F;
     border-radius: 5rem;
 }
 /* HERO SECTION */
@@ -74,6 +74,7 @@ body{
     color: #D3AD7F;
 }
 .divider{
+    margin-top: 1.5rem;
     border-bottom: solid 1px rgb(54, 46, 46);
 }
 .C-title{
@@ -144,4 +145,74 @@ body{
     padding-top: 1rem;
     line-height: 2rem;
     color: #ccc;
+}
+/* SEÇÃO MENU */
+.section-2 h2{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.section-2 h2 span{
+    color: #D3AD7F;
+}
+.C-card-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card{
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #0d0d0f;
+}
+.card img{
+    width: 120px;
+    height: auto;
+}
+.card h3{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.card p{
+    color: #ccc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.card span{
+    color: #ccc;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+.card .btn-menu{
+    margin-top: 1rem;
+    background-color: #D3AD7F;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card .btn-menu:hover{
+    background-color: #13131a;
+    color: #fff;
+}
+.C-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
