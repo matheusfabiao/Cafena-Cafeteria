@@ -20,6 +20,7 @@ html::-webkit-scrollbar-thumb{
     background-color: #d3d3d3;
     border-radius: 5rem;
 }
+/* HERO SECTION */
 .background{
     background-image: url(/img/home-img.jpeg);
     background-repeat: no-repeat;
@@ -102,4 +103,45 @@ body{
 .btn:hover{
     background-color: #13131a;
     color: #fff;
+}
+/* SOBRE NÓS */
+.section-1{
+    padding: 5rem;
+}
+.section-1 h2{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.section-1 span{
+    color: #D3AD7F;
+}
+.section-1 .sobre-nos{
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+.sobre-nos .sobre-img img{
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+}
+.sobre-nos-title{
+    margin: 2rem;
+    background-color: ;
+}
+.sobre-nos-title h3{
+    color: #fff;
+    font-size: 2rem;
+}
+.sobre-nos-title p{
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+    color: #ccc;
 }
