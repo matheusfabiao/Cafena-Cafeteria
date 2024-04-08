@@ -161,7 +161,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 .card{
@@ -175,7 +175,7 @@ body{
 }
 .card:hover{
     transform: scale(1.1);
-    transition: 0.5s all;
+    transition: 0.9s all;
     background-color: #0d0d0f;
 }
 .card img{
@@ -215,4 +215,63 @@ body{
     flex-wrap: wrap;
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+/* NOSSOS PRODUTOS */
+.section-3 h2{
+    color: #fff;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.section-3 h2 span{
+    color: #D3AD7F;
+}
+.C-card-produtos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.card-produtos{
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 5rem;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    margin-top: 3rem;
+}
+.Icon-produtos a{
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: .8rem;
+    transition: 0.3s;
+}
+.Icon-produtos a:hover{
+    background-color: #D3AD7F;
+}
+.C-card-produtos .produto-img img{
+    margin-top: 2rem;
+}
+.title-produtos h3{
+    color: #fff;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.price{
+    color: #fff;
+}
+.price span{
+    text-decoration: line-through;
+    font-weight: 100;
+    margin-left: .5rem;
+}
+.star a{
+    color: #D3AD7F;
+    font-size: 1.5rem;
 }
