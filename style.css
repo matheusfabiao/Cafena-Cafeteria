@@ -5,4 +5,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+html::-webkit-scrollbar{
+    width: 5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #d3d3d3;
+    border-radius: 5rem;
+}
+.background{
+    background-image: url(/img/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    background-color: #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.links{
+    display: flex;
+    gap: 3rem;
+}
+.links li a{
+    color: #fff;
+    transition: 0.3s;
+}
+.links li a:hover{
+    color: #D3AD7F;
+    border-bottom: solid 1px #D3AD7F;
+}
+.C-icon{
+    margin-right: 5rem;
+}
+.C-icon .Icon{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.C-icon .Icon:hover{
+    color: #D3AD7F;
+}
+.divider{
+    border-bottom: solid 1px rgb(54, 46, 46);
+}
+.C-title{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+.C-title .title h1{
+    color: #fff;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+.C-title p{
+    color: rgb(231, 208, 208);
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.C-title .btn{
+    margin-top: 2rem;
+    background-color: #D3AD7F;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.C-title .btn:hover{
+    background-color: #13131a;
+    color: #fff;
 }
